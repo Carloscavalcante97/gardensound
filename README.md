@@ -1,6 +1,6 @@
 Desafio 2 da Gama Academy - Garden Sound
 
-Realizado por: Carlos Cavalcante e Lucas Pivotto.
+Realizado por: @Carloscavalcante97 e @eupivotto .
 
 Neste projeto, fomos desafiados a criar funções para cadastrar, editar eventos e fazer/alterar reservas. Para isso uma API específica.
 
