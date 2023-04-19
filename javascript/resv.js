@@ -1,4 +1,4 @@
-const BASE_URL = "https://soundgarden-api.vercel.app/bookings";
+const BASE_URL = "https://soundgarden-api.vercel.app";
 
 const tabela = document.querySelector("tbody");
 const titulo = document.querySelector("#h1eventos");
@@ -7,7 +7,7 @@ const titulo = document.querySelector("#h1eventos");
 
 async function listasReservas() {
   try {
-    const resposta = await fetch(`${BASE_URL}`, {
+    const resposta = await fetch(`${BASE_URL}/bookings`, {
       method: "GET",
       headers: { "Content-Type": "application/json" },
       redirect: "follow",
