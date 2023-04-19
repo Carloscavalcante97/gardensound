@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+body {
+  font-family: "Questrial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+#painel-adm {
+  font-size: 30px;
+}
+.img-responsive {
+  max-width: 120px;
+}
+#h1 {
+  font-size: 40px;
+  width: 300x;
+}
+header {
+  position: relative;
+  box-shadow: 0px 5px 4px 0px rgb(63 63 63 / 27%);
+  width: 100%;
+  background-color: #fff;
+}
+aside {
+  min-height: 81vh;
+  background-color: #f8f9fa;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #c2185b;
+}
+
+.btn-primary {
+  background-color: #c2185b;
+  border-color: #c2185b;
+}
+
+.btn-dark {
+  width: 135px;
+}
+.btn-secondary2 {
+  background-color: #6c757d;
+  width: 65px;
+}
+
+.btn-danger2 {
+  background-color: #dc3545;
+  color: #fff;
+  width: 80px;
+}
+main {
+  width: 100%;
+}
+main.login {
+  width: 400px;
+}
+
+#eventos {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.full {
+  width: 100%;
+  min-height: 80vh;
+  padding: 50px 0;
+}
+
+article.evento {
+  width: 350px;
+}
+header {
+  width: 100%;
+}
+footer {
+  width: 100%;
+}
+footer nav ul {
+  list-style: none;
+  display: flex;
+}
+
+footer nav ul li {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #painel {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150px;
+  }
+
+  .row aside {
+    width: 100%;
+    margin-bottom: -200px;
+    text-align: center;
+  }
+
+  aside {
+    background-color: #fff;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .evento .card .p-5 .m-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row aside img {
+    width: 150px;
+  }
+
+  .row aside ul {
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (max-width: 666px) {
+  .btn-dark {
+    width: 80px;
+  }
+  .btn-secondary {
+    width: 80px;
+  }
+  #form-evento input {
+    width: 280px;
+  }
+  #form-evento textarea {
+    width: 280px;
+  }
+  #form-evento label {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  tbody {
+    width: 700px;
+  }
+  #excluir {
+    width: 280px;
+  }
+  .btn {
+    width: 80px;
+  }
+  #acao {
+    display: none;
+  }
+  .nav-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+
+  .btn-primary {
+    width: 200px;
+  }
+
+  #tabela-controle {
+    width: 100%;
+  }
+
+  .btn-secondary2 {
+    width: 80px;
+  }
+  #botao-ver-todos {
+    width: 110px;
+  }
+
+  #painel {
+    width: 110%;
+  }
+
+  #titulos {
+    padding-left: 75px;
+  }
+} ;
